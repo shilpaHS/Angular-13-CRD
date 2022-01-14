@@ -26,7 +26,7 @@ export class PropertyListComponent implements OnInit {
     this.page = event;
     this.fetchAllProperty();
   }
-  deleteTutorial(id: any): void {
+  deleteProperty(id: any): void {
     this.property_service.delete(id)
     this.fetchAllProperty()
   }

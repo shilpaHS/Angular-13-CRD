@@ -1,5 +1,5 @@
 <div class="list row">
-    <h4>Tutorials List</h4>
+    <h4>Property List</h4>
     <div class="col-md-12" *ngIf="properties.length>0">
         <table class="table">
             <thead class="thead-dark">
@@ -23,7 +23,7 @@
                     <td>{{property.description}}</td>
                     <td>{{property.size}}</td>
                     <td><button type="button" class="btn btn-danger btn-sm"
-                            (click)="deleteTutorial(property.id)">Delete</button></td>
+                            (click)="deleteProperty(property.id)">Delete</button></td>
                 </tr>
                 <tr>
             </tbody>
